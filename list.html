@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task 3</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+  </head>
+  <body>
+    <form>
+      <input type="text" id="person-input" placeholder="Add a person..." onkeydown="if (event.key === 'Enter') addPerson()">
+      <button type="button" id="add-button" onclick="addPerson()">Add to the list</button>
+    </form>
+    <ul id="person-list">
+    </ul>
+    <script src="js/list.js"></script>
+  </body>
+</html>
